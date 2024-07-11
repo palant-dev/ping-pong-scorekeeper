@@ -13,26 +13,33 @@
         <img class="top-image"
             src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="ping-pong image">
-        <div>
+
+        <div class="container-title">
             <h2>Ping Pong Score Keeper</h1>
+                <div class="divider"></div>
         </div>
-        <div class="score">
-            <h1 id="player-one-score">0</h1>
-            <h1>to</h1>
-            <h1 id="player-two-score">0</h1>
-        </div>
-        <div class="hint">
-            <h3>Use the button below to keep score</h3>
-        </div>
-        <div>
-            <h5>Playing To</h5>
-            <input type="number" value="5">
+        <div class="container">
+
+            <div class="score">
+                <h1 id="player-one-score">0</h1>
+                <h1>to</h1>
+                <h1 id="player-two-score">0</h1>
+            </div>
+            <div class="hint">
+                <h3>Use the button below to keep score</h3>
+            </div>
+            <div class="goal-selector">
+                <h5>Playing To</h5>
+                <input type="number" class="number-selector" value="5">
+            </div>
+
         </div>
         <div class="main-buttons">
             <button class="player-one-scores">+1 Player One</button>
             <button class="player-two-scores">+1 Player Two</button>
             <button class="reset">Reset</button>
         </div>
+
     </div>
 </body>
 <script src="app.js"></script>
